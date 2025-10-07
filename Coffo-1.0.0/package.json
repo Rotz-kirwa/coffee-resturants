@@ -1,0 +1,14 @@
+{
+  "name": "kenyaways-coffee",
+  "version": "1.0.0",
+  "description": "KenyaWays Coffee - Authentic Kenyan Coffee Experience",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "start": "npx serve ."
+  },
+  "keywords": ["coffee", "kenyan-coffee", "restaurant", "static-site"],
+  "author": "KenyaWays Coffee",
+  "license": "MIT"
+}
