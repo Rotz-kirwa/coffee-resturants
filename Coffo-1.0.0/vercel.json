@@ -1,4 +1,13 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false
+  "functions": {
+    "index.js": {
+      "runtime": "@vercel/node@18"
+    }
+  },
+  "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/(.*\\.(css|js|png|jpg|gif|ico))", "dest": "/$1" },
+    { "src": "/(.*\\.html)", "dest": "/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
 }
